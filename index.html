@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Comécio Terra</title>
+</head>
+<body>
+    <header>
+        <h1> Comercial Terra</h1>
+       
+        <nav>
+            <a href="index.html">Sobre Nós</a> <a href="#" class="pagatual">Nossos Produtos</a>
+        </nav>
+    </header>
+    <h2>Nossos Produtos</h2>
+    <main>
+        <div class="caixa" id="caixa" id="milho">
+        <h1>Milho</h1>
+            <img id= "mil" src="img/istockphoto-1145748094-612x612.jpg" alt="milho">
+            <button onclick="mostrarmais ()">Quero saber mais sobre este produto!</button>
+            <p>
+                <br>texto secreto
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eum voluptas modi error corrupti minima dolore minus maxime harum, laudantium provident a quod. Placeat fugit voluptatum perspiciatis architecto modi dolores!
+            </p>
+</div> 
+<div class="caixa" id="feijao" ></div>
+<script>
+    function mostrarmais() {
+    var caixa = document.getElementById('caixa');
+    
+    if (caixa.style.maxHeight === '350px') {
+        caixa.style.maxHeight = '100%'; 
+    } else {
+        caixa.style.maxHeight = '350px'; 
+    }
+}
+</script>    
+<footer></footer>
+
+</body>
+</html>

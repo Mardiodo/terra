@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+ body{
+    font-family: Karla, sans-serif;
+    background-color: rgba(223, 255, 239, 0.829);
+}
+
+h1 { font-size:  3.5em;
+    color: #535f59;
+    text-align: center;
+}
+header {
+    background-color:#CCFCFF;
+}
+ a {
+    margin-left: 50px;
+    text-decoration: none;
+}
+.pagatual {
+    background-color: #b9e6e9b2;
+    text-decoration:underline;
+}
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #535f59;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    padding: 10px;
+
+}
+.caixa {
+    display: inline-block;
+    width: 400px;
+    max-height: 350px; 
+    margin: 10px; 
+    border: 1px solid #000; 
+    padding: 10px; 
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+#milho {
+
+}
+#feijao{
+ 
+}
+#mil {
+    height: 250px;
+    width: 400px;
+}
+button {
+   margin: auto;
+    text-decoration: none;
+}
