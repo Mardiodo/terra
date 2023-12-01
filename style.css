@@ -12,7 +12,7 @@ h1 { font-size:  3.5em;
     color: #535f59;
     text-align: center;
 }
-header {
+header { max-width: 1000px;
     background-color:#CCFCFF;
 }
  a {
@@ -76,7 +76,7 @@ button {
 
 #txt {
     background-color: white;
-    width: 100%;
+   max-width: 1300px;
     max-height: 1300px;
     display: flex;
     align-items: center;
