@@ -14,23 +14,33 @@
         <h1> Comercial Terra</h1>
        
         <nav>
-            <a href="index.html">Sobre Nós</a> <a href="#" class="pagatual">Nossos Produtos</a>
+            <a href="sobrenos.html">Sobre Nós</a> <a href="index.html" class="pagatual">Nossos Produtos</a>
         </nav>
     </header>
     <h2>Nossos Produtos</h2>
     <main>
         <div class="caixa" id="caixa" id="milho">
         <h1>Milho</h1>
-            <img id= "mil" src="img/istockphoto-1145748094-612x612.jpg" alt="milho">
+            <img class="imag" src="img/istockphoto-1145748094-612x612.jpg" alt="milho">
             <button onclick="mostrarmais ()">Quero saber mais sobre este produto!</button>
             <p class="info">
                 <br>
                 Este milho não é apenas um grão comum; é um ingrediente versátil que pode ser utilizado de diversas formas na culinária. Desde pratos tradicionais como pamonha, canjica e curau, até preparações mais modernas, o nosso milho adapta-se com facilidade às receitas da sua cozinha.
-             <br>   <span class="preco">110 réis por arroba</span>
+             <br>   <span class="preco">1155 réis por arroba</span>
                 
             </p>
 </div> 
-<div class="caixa" id="feijao" ></div>
+<div class="caixa"  id="caixa2" >
+    <h1>Feijão</h1>
+    <img src="img/feijao.jpg" alt="feijao" class="imag">
+    <button onclick="mostrarmais2 ()">Quero saber mais sobre este produto!</button>
+    <br>
+    O feijão é um dos pilares da nossa culinária. Além de ser a base de pratos tradicionais como feijoada e tutu, ele também se destaca em preparações mais simples, como o clássico arroz com feijão. Sua versatilidade na cozinha é uma verdadeira bênção, tornando-o um ingrediente indispensável na mesa de qualquer família.
+    <br>   <span class="preco">1425 réis por arroba</span>
+       
+   </p>
+
+</div>
 <script>
     function mostrarmais() {
     var caixa = document.getElementById('caixa');
@@ -39,9 +49,64 @@
         caixa.style.maxHeight = '100%'; 
     } else {
         caixa.style.maxHeight = '350px'; 
+    }}
+   
+    function mostrarmais2() {
+    var caixa = document.getElementById('caixa2');
+    
+    if (caixa.style.maxHeight === '350px') {
+        caixa.style.maxHeight = '100%'; 
+    } else {
+        caixa.style.maxHeight = '350px'; 
     }
 }
 </script>    
+
+<div class="caixa" id="caixa3" id="mandioca">
+    <h1>Mandioca</h1>
+    
+    <img class="imag" src="img/mandioca.jpeg" alt="mandioca">
+    <button onclick="mostrarmais3()">Quero saber mais sobre este produto!</button> <br>
+    <p class="info"> A mandioca é uma verdadeira joia na nossa culinária. Além de ser a base de pratos como a farofa e a tapioca, ela também se presta a diversas receitas, desde petiscos até acompanhamentos. Sua versatilidade na cozinha a torna um tesouro que enriquece nossa mesa diariamente.
+        
+        <br><span class="preco">210 réis por arroba</span>
+    </p>
+</div>
+
+<div class="caixa" id="caixa4" id="trigo">
+    <h1>Trigo</h1>
+
+    <img class="imag" src="img/trigo.jpg" alt="trigo">
+    <button onclick="mostrarmais4()">Quero saber mais sobre este produto!</button> <br>
+    <p class="info">
+        O trigo é a base de muitas de nossas receitas. Desde o pão que perfuma nossas cozinhas até os bolos e massas que encantam nossas mesas, o nosso trigo é um ingrediente essencial que transforma simples ingredientes em pratos memoráveis.
+        <br><span class="preco">550 réis por saca de trigo</span>
+    </p>
+</div>
+
+
+<script>
+    function mostrarmais3() {
+        var caixa3 = document.getElementById('caixa3');
+
+        if (caixa3.style.maxHeight === '350px') {
+            caixa3.style.maxHeight = '100%';
+        } else {
+            caixa3.style.maxHeight = '350px';
+        }
+    }
+
+    function mostrarmais4() {
+        var caixa4 = document.getElementById('caixa4');
+
+        if (caixa4.style.maxHeight === '350px') {
+            caixa4.style.maxHeight = '100%';
+        } else {
+            caixa4.style.maxHeight = '350px';
+        }
+    }
+</script>
+
 <footer></footer>
 
 </body>

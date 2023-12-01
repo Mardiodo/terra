@@ -42,6 +42,7 @@ h2 {
     background-color: white;
     overflow: hidden;
     transition: max-height 0.3s ease;
+    vertical-align:top;
 }
 .info{
     margin-top: 5px;
@@ -53,13 +54,12 @@ text-align: center;
 text-decoration: underline;
 
 }
-#feijao{
- 
-}
-#mil {
+.imag{
     height: 250px;
     width: 400px;
+    
 }
+
 button {
     margin: 0 auto;
     
