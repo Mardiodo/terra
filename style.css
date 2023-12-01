@@ -73,3 +73,21 @@ button {
     display: block;
     font-weight: 400;
 }
+
+#txt {
+    background-color: white;
+    width: 100%;
+    max-height: 1300px;
+    display: flex;
+    align-items: center;
+
+}
+#pqt {
+    text-align: center;
+    padding-top: auto;
+    font-size: 1.25em;
+}
+#sim {
+    min-width: 320px;
+
+}
