@@ -3,17 +3,29 @@
     padding: 0;
   }
 
- body{
-    font-family: Karla, sans-serif;
-    background-color: rgba(223, 255, 239, 0.829);
-}
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    overflow-x: hidden; }
 
 h1 { font-size:  3.5em;
     color: #535f59;
     text-align: center;
 }
-header { max-width: 1000px;
+header { max-width: 8000px;
+    min-width: 350px;
     background-color:#CCFCFF;
+}
+header, main {
+    width: 100%;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 600px) {
+    /* Estilos específicos para telas menores que 600px de largura */
+    .caixa {
+        max-height: none; /* Remova a altura máxima para exibir o conteúdo completo */
+    }
 }
  a {
     margin-left: 50px;
@@ -34,7 +46,7 @@ h2 {
 }
 .caixa {
     display: inline-block;
-    width: 400px;
+    max-width: 400px;
     max-height: 350px; 
     margin: 10px; 
     border: 1px solid #000; 
@@ -55,8 +67,8 @@ text-decoration: underline;
 
 }
 .imag{
-    height: 250px;
-    width: 400px;
+    max-height: 250px;
+    max-width: 400px;
     
 }
 
