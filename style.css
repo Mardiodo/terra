@@ -13,19 +13,8 @@ h1 { font-size:  3.5em;
     color: #535f59;
     text-align: center;
 }
-header { max-width: 8000px;
-    min-width: 350px;
+header {width: 100%;
     background-color:#CCFCFF;
-}
-header, main {
-    width: 100%;
-    box-sizing: border-box;
-}
-@media only screen and (max-width: 600px) {
-    /* Estilos específicos para telas menores que 600px de largura */
-    .caixa {
-        max-height: none; /* Remova a altura máxima para exibir o conteúdo completo */
-    }
 }
  a {
     margin-left: 50px;
